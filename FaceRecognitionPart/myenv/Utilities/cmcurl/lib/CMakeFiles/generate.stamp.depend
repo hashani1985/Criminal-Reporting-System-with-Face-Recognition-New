@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/cmcurl/lib/CMakeLists.txt
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/cmcurl/lib/Makefile.inc
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/cmcurl/lib/curl_config.h.cmake
+D:/Project/Application/FaceRecognitionPart/myenv/Utilities/cmcurl/lib/Makefile.inc.cmake

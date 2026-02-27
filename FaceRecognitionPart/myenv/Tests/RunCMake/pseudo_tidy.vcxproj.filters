@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Tests\RunCMake\pseudo_tidy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Tests\RunCMake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EB76C1A6-7D49-31BE-8DA6-BAA568A908AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

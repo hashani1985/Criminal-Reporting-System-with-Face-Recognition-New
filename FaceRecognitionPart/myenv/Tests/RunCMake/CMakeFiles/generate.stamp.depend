@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPkgConfig.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPython.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPython/Support.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CMakeLists.txt
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/7Z/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/DEB/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/External/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/RPM/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/STGZ/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/TBZ2/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/TGZ/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/TXZ/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/TZ/Prerequirements.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/RunCMake/CPack/ZIP/Prerequirements.cmake

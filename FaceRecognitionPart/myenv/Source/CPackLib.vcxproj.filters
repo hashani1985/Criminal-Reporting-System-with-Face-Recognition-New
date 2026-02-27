@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackArchiveGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackComponentGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackDebGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackExternalGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackGeneratorFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackLog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackInnoSetupGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackNSISGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackNuGetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackSTGZGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWInstaller.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWPackage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWRepository.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCMakeToWixPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCPackWIXGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXAccessControlList.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXDirectoriesSourceWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFeaturesSourceWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFilesSourceWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatchParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXRichTextFormatWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXShortcut.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXSourceWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWInstaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWRepository.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCMakeToWixPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCPackWIXGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXAccessControlList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXDirectoriesSourceWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFeaturesSourceWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFilesSourceWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatchParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXRichTextFormatWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXShortcut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXSourceWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2F041D27-F8CE-39D9-8CC1-BE437732C872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EB76C1A6-7D49-31BE-8DA6-BAA568A908AF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

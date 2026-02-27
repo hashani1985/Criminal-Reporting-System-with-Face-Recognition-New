@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeLists.txt
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeSourceDir.txt.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeVersion.rc.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CPack/cmCPackConfigure.h.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/cmConfigure.cmake.h.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/cmVersionConfig.h.in

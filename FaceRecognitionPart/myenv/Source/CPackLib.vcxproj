@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC0C7DD3-299F-370F-BFEE-701789B3883D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CPackLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CPackLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CPackLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CPackLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CPackLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CPackLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CPackLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CPackLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CPackLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/std" /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/std" /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/std" /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities/std" /external:I "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Utilities"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CURL_STATICLIB;LIBARCHIVE_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\Application\FaceRecognitionPart\myenv\Utilities;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source\CPack;D:\Project\Application\FaceRecognitionPart\myenv\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\LexerParser;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities\std;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Application/FaceRecognitionPart/cmake-3.27.7 -BD:/Project/Application/FaceRecognitionPart/myenv --check-stamp-file D:/Project/Application/FaceRecognitionPart/myenv/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeSourceDir.txt.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeVersion.rc.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackConfigure.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmConfigure.cmake.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmVersionConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Application/FaceRecognitionPart/cmake-3.27.7 -BD:/Project/Application/FaceRecognitionPart/myenv --check-stamp-file D:/Project/Application/FaceRecognitionPart/myenv/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeSourceDir.txt.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeVersion.rc.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackConfigure.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmConfigure.cmake.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmVersionConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Application/FaceRecognitionPart/cmake-3.27.7 -BD:/Project/Application/FaceRecognitionPart/myenv --check-stamp-file D:/Project/Application/FaceRecognitionPart/myenv/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeSourceDir.txt.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeVersion.rc.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackConfigure.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmConfigure.cmake.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmVersionConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Project/Application/FaceRecognitionPart/cmake-3.27.7 -BD:/Project/Application/FaceRecognitionPart/myenv --check-stamp-file D:/Project/Application/FaceRecognitionPart/myenv/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeSourceDir.txt.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CMakeVersion.rc.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackConfigure.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmConfigure.cmake.h.in;D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\cmVersionConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\Application\FaceRecognitionPart\myenv\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackArchiveGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackComponentGroup.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackDebGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackExternalGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackGeneratorFactory.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackLog.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackInnoSetupGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackNSISGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackNuGetGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\cmCPackSTGZGenerator.cxx" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWCommon.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWCommon.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWGenerator.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWGenerator.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWInstaller.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWInstaller.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWPackage.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWPackage.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWRepository.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\IFW\cmCPackIFWRepository.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCMakeToWixPath.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCMakeToWixPath.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCPackWIXGenerator.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmCPackWIXGenerator.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXAccessControlList.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXAccessControlList.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXDirectoriesSourceWriter.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXDirectoriesSourceWriter.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFeaturesSourceWriter.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFeaturesSourceWriter.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFilesSourceWriter.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXFilesSourceWriter.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatch.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatch.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatchParser.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXPatchParser.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXRichTextFormatWriter.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXRichTextFormatWriter.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXShortcut.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXShortcut.h" />
+    <ClCompile Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXSourceWriter.cxx" />
+    <ClInclude Include="D:\Project\Application\FaceRecognitionPart\cmake-3.27.7\Source\CPack\WiX\cmWIXSourceWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\ZERO_CHECK.vcxproj">
+      <Project>{CD3A8B89-3BAF-36C4-A400-D35BFDA45047}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Source\CMakeLib.vcxproj">
+      <Project>{19186DF5-FDE7-387D-AE09-CBFCB6F653C6}</Project>
+      <Name>CMakeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmbzip2\cmbzip2.vcxproj">
+      <Project>{72EA9AC7-F782-3A9A-9429-A39595AADFC7}</Project>
+      <Name>cmbzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmcppdap\cmcppdap.vcxproj">
+      <Project>{3A6CBFFE-2219-3A54-88AE-19D9660D32CE}</Project>
+      <Name>cmcppdap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmcurl\lib\cmcurl.vcxproj">
+      <Project>{E28372ED-912A-3AAE-92B1-ECA4FA494E4C}</Project>
+      <Name>cmcurl</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmexpat\cmexpat.vcxproj">
+      <Project>{D78BEDD5-2F50-310C-8525-2BC5A715AA72}</Project>
+      <Name>cmexpat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmjsoncpp\cmjsoncpp.vcxproj">
+      <Project>{7762C57A-7C0D-36D6-B6C8-09E7D9577FFA}</Project>
+      <Name>cmjsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmlibarchive\libarchive\cmlibarchive.vcxproj">
+      <Project>{4DA66D24-0288-3777-A057-815CAECC0194}</Project>
+      <Name>cmlibarchive</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmliblzma\cmliblzma.vcxproj">
+      <Project>{12049E2F-E767-3F3D-B87F-03D23908D71E}</Project>
+      <Name>cmliblzma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmlibrhash\cmlibrhash.vcxproj">
+      <Project>{222BB2F7-3452-3100-8E6E-2377B574A1DD}</Project>
+      <Name>cmlibrhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmlibuv\cmlibuv.vcxproj">
+      <Project>{1EE6B16B-042D-3332-9EA1-AF7082D47ED4}</Project>
+      <Name>cmlibuv</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmnghttp2\cmnghttp2.vcxproj">
+      <Project>{8DF6BDB9-4243-3FE3-AAD9-9327ACBDBB54}</Project>
+      <Name>cmnghttp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\std\cmstd.vcxproj">
+      <Project>{BCD77DEB-32E5-36FC-A7E5-3DFE589E8EAD}</Project>
+      <Name>cmstd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Source\kwsys\cmsys.vcxproj">
+      <Project>{5855ABAB-630D-3166-80BD-59EAA125A5DF}</Project>
+      <Name>cmsys</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmzlib\cmzlib.vcxproj">
+      <Project>{48E8243C-EE1B-37B2-8816-B642D6EA473D}</Project>
+      <Name>cmzlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Project\Application\FaceRecognitionPart\myenv\Utilities\cmzstd\cmzstd.vcxproj">
+      <Project>{8FD06286-1341-3C84-9C7B-EA845DB9235B}</Project>
+      <Name>cmzstd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

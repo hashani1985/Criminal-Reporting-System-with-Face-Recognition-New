@@ -1,0 +1,88 @@
+import tkinter as tk
+from tkinter import filedialog
+import cv2
+import face_recognition
+import os
+from PIL import Image, ImageTk
+
+class WebcamApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Webcam App")
+
+        self.video_source = 0  # 0 for default webcam
+        self.vid = cv2.VideoCapture(self.video_source)
+
+        self.canvas = tk.Canvas(root, width=self.vid.get(3), height=self.vid.get(4))
+        self.canvas.pack()
+
+        self.btn_start = tk.Button(root, text="Start Webcam", command=self.start_webcam)
+        self.btn_start.pack(side=tk.LEFT)
+
+        self.btn_recognize = tk.Button(root, text="Recognize Image", command=self.recognize_image)
+        self.btn_recognize.pack(side=tk.LEFT)
+
+        self.btn_stop = tk.Button(root, text="Stop Webcam", command=self.stop_webcam)
+        self.btn_stop.pack(side=tk.LEFT)
+
+        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+
+        self.is_webcam_running = False
+        self.current_frame = None
+
+    def start_webcam(self):
+        if not self.is_webcam_running:
+            self.is_webcam_running = True
+            self.update()
+    
+    def stop_webcam(self):
+        if self.is_webcam_running:
+            self.is_webcam_running = False
+
+    def recognize_image(self):
+        if self.current_frame is not None:
+            # Assuming you have a folder named "captured_images" containing offender images in separate folders
+            offenders_folder = "captured_images"
+
+            # Your face recognition logic goes here
+            # For simplicity, this example assumes one face per image
+            image_to_recognize = face_recognition.load_image_file("captured_images/O002/O002_1.jpg")
+            encoded_image_to_recognize = face_recognition.face_encodings(image_to_recognize)[0]
+
+            for offender_id in os.listdir(offenders_folder):
+                offender_folder = os.path.join(offenders_folder, offender_id)
+                for filename in os.listdir(offender_folder):
+                    offender_image_path = os.path.join(offender_folder, filename)
+                    offender_image = face_recognition.load_image_file(offender_image_path)
+                    encoded_offender_image = face_recognition.face_encodings(offender_image)[0]
+
+                    # Compare the faces
+                    results = face_recognition.compare_faces([encoded_offender_image], encoded_image_to_recognize)
+
+                    if True in results:
+                        tk.messagebox.showinfo("Identification", f"Offender ID: {offender_id}")
+                        return
+
+            tk.messagebox.showinfo("Identification", "No match found")
+
+    def update(self):
+        ret, frame = self.vid.read()
+
+        if ret:
+            self.current_frame = frame
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            photo = ImageTk.PhotoImage(image=Image.fromarray(frame))
+            self.canvas.create_image(0, 0, image=photo, anchor=tk.NW)
+            self.canvas.photo = photo
+
+        if self.is_webcam_running:
+            self.root.after(10, self.update)
+
+    def on_closing(self):
+        self.stop_webcam()
+        self.root.destroy()
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = WebcamApp(root)
+    root.mainloop()

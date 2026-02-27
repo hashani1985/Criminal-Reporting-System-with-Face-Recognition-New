@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Templates/TestDriver.cxx.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeLib/CMakeLists.txt
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeLib/testVisualStudioSlnParser.h.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeLib/testXMLParser.h.in

@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads
+# Build directory: D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test([=[FindThreads.C-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/C-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.C-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test([=[FindThreads.C-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/C-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.C-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test([=[FindThreads.C-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/C-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.C-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test([=[FindThreads.C-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/C-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.C-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+else()
+  add_test([=[FindThreads.C-only]=] NOT_AVAILABLE)
+endif()
+if(CTEST_CONFIGURATION_TYPE MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test([=[FindThreads.CXX-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CXX-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.CXX-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test([=[FindThreads.CXX-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CXX-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.CXX-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test([=[FindThreads.CXX-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CXX-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.CXX-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+elseif(CTEST_CONFIGURATION_TYPE MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test([=[FindThreads.CXX-only]=] "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "--build-and-test" "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CXX-only" "D:/Project/Application/FaceRecognitionPart/myenv/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 17 2022" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "D:/Project/Application/FaceRecognitionPart/myenv/bin/ctest" "-V")
+  set_tests_properties([=[FindThreads.CXX-only]=] PROPERTIES  _BACKTRACE_TRIPLES "D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/FindThreads/CMakeLists.txt;0;")
+else()
+  add_test([=[FindThreads.CXX-only]=] NOT_AVAILABLE)
+endif()

@@ -1,0 +1,26 @@
+# CMake generation dependency list for this directory.
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/CMakeLists.txt
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/CMakeMinimumRequiredTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/CompilerIdVendorTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/EndStuffTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/FileTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/FileUploadTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/FindBaseTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/GetFilenameComponentRealpathTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/GetPrerequisitesTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/GetPropertyTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/IfTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/ImplicitLinkInfoTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/IncludeTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/ListTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/MathTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/MessageTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/ModuleNoticesTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/PolicyCheckTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/ProcessorCountTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/PushCheckStateTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/StringTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/ToolchainTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/VariableWatchTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/VersionTest.cmake.in
+D:/Project/Application/FaceRecognitionPart/cmake-3.27.7/Tests/CMakeTests/WhileTest.cmake.in
