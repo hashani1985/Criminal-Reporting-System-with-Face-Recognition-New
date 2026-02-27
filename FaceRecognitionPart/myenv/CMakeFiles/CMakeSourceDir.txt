@@ -1,1 +1,0 @@
-D:/Project/Application/FaceRecognitionPart/cmake-3.27.7
